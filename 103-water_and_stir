@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-#!/bin/bash
-echo $(printf %o $(($((5#$(echo $WATER | tr'water' '01234'))) + $((5#$(echo $STIR | tr 'stir' '01234'))))) |tr '01234567' 'bestchol')
-
-=======
 #!/bin/bash                                                                                                                   
 echo $(printf %o $(($((5#$(echo $WATER | tr'water' '01234'))) + $((5#$(echo $STIR | tr 'stir' '01234'))))) |tr '01234567' 'bes
 tchol')                                                          
                                                                                                                            
->>>>>>> 76c502a8dc89d107cf5e20d4db589ad7d298d7b3
