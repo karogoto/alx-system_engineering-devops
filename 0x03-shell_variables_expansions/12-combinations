@@ -1,12 +1,2 @@
-<<<<<<< HEAD
-#!/bin/bash
-echo (a..z)(a..z) | tr ' ' '\n' | grep -v "oo"
-=======
 #!/bin/bash                                                                                                                                    
-echo (a..z)(a..z) | tr ' ' '\n' | grep -v "oo"                                                                                                 
-                                                                                                                                               
-~                                                                                                                                              
-~                                                                                                                                              
-~                                                    
->>>>>>> 76c502a8dc89d107cf5e20d4db589ad7d298d7b3
-
+echo (a..z)(a..z) | tr ' ' '\n' | grep -v "oo"                                                                      
