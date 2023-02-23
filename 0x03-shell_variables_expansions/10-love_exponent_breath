@@ -1,2 +1,2 @@
 #!/bin/bash
-power=$BREATH; for ((i=1;i<$LOVE;i++)); do power=$((power*BREATH)); done; echo $power
+echo $(echo "$BREATH^$LOVE" | bc)
