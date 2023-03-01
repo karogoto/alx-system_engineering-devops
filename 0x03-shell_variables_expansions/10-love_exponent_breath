@@ -1,2 +1,2 @@
 #!/bin/bash
-( echo "$BREATH^$LOVE" | dc -e "2 k $LOVE ^ $BREATH ^ p" ) <<< "" | tr '\n' ' ' echo
+echo $(($BREATH**$LOVE))
