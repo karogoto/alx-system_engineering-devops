@@ -1,2 +1,2 @@
 #!/bin/bash
-BREATH=$BREATH LOVE=$LOVE RESULT=$(echo "scale=2; $BREATH^$LOVE" | bc) && echo $RESULT
+( echo "$BREATH^$LOVE" | dc -e "2 k $LOVE ^ $BREATH ^ p" ) <<< "" | tr '\n' ' ' echo
